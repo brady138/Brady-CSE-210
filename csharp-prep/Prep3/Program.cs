@@ -11,7 +11,7 @@ class Program
 
         while (!Guess)
         {
-            Console.Write("Enter your guess (between 1 and 10): ");
+            Console.Write("Enter your guesses (between 1 and 10): ");
             string input = Console.ReadLine();
             guessCount ++;
             if (guessCount == 3)
